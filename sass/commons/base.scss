@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: $veryDarkBlue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+section {
+  min-width: 320px;
+  max-width: 375px;
+  background-color: $darkBlue;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+footer {
+  bottom: 0;
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 385px) {
+  section {
+    margin: 25px;
+  }
+}

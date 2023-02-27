@@ -1,0 +1,37 @@
+.thanks-card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thanks-card__container__image {
+  height: 95px;
+  width: auto;
+  margin-bottom: 25px;
+}
+
+.thanks-card__container__result {
+  display: flex;
+  align-items: center;
+  background-color: $lightGrey;
+  color: $orange;
+  padding: 10px 15px;
+  border-radius: 50px;
+  gap: 5px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.thanks-card__container__title {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.thanks-card__container__paragraph {
+  color: $mediumGrey;
+  font-size: 15px;
+  text-align: center;
+}

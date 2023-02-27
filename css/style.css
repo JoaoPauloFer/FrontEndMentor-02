@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: #121417;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+section {
+  min-width: 320px;
+  max-width: 375px;
+  background-color: #252d37;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+footer {
+  bottom: 0;
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 385px) {
+  section {
+    margin: 25px;
+  }
+}
+.evaluation-card__icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(66, 71, 79, 0.6196078431);
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-bottom: 35px;
+}
+.evaluation-card__icon-container__star {
+  height: 20px;
+}
+
+.evaluation-card__title {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.evaluation-card__description {
+  color: #7c8798;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.evaluation-card__btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.evaluation-card__btn-container__btn {
+  background-color: rgba(66, 71, 79, 0.6196078431);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #7c8798;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.evaluation-card__btn-container__btn:hover {
+  color: white;
+  background-color: #7c8798;
+}
+.evaluation-card__btn-container__btn:focus {
+  background-color: #fb7413;
+  color: white;
+}
+
+.evaluation-card__btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  color: white;
+  background-color: #fb7413;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.evaluation-card__btn:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.thanks-card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thanks-card__container__image {
+  height: 95px;
+  width: auto;
+  margin-bottom: 25px;
+}
+
+.thanks-card__container__result {
+  display: flex;
+  align-items: center;
+  background-color: rgba(66, 71, 79, 0.6196078431);
+  color: #fb7413;
+  padding: 10px 15px;
+  border-radius: 50px;
+  gap: 5px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.thanks-card__container__title {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.thanks-card__container__paragraph {
+  color: #7c8798;
+  font-size: 15px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
